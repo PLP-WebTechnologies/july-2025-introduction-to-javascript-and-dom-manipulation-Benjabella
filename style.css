@@ -1,0 +1,12 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem;
+  line-height: 1.5;
+}
+section {
+  margin-bottom: 2rem;
+}
+button {
+  margin: .25rem .5rem .25rem 0;
+  padding: .4rem .8rem;
+}

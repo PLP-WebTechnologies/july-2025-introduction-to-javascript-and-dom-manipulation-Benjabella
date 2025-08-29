@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>JS Fundamentals Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>JavaScript Fundamentals – Live Demo</h1>
+
+  <!-- Part 1 & 4: user input, output & DOM -->
+  <section>
+    <label>
+      Enter your age:
+      <input id="ageInput" type="number" min="0" />
+    </label>
+    <button id="ageBtn">Check age</button>
+    <p id="ageMsg"></p>
+  </section>
+
+  <!-- Part 2: reusable functions demo -->
+  <section>
+    <h2>Cart total calculator</h2>
+    <ul id="cartList">
+      <li data-price="3.5">Milk – $3.50</li>
+      <li data-price="1.2">Bread – $1.20</li>
+      <li data-price="4.8">Cheese – $4.80</li>
+    </ul>
+    <button id="calcBtn">Show total</button>
+    <p id="totalMsg"></p>
+  </section>
+
+  <!-- Part 3: loops demo -->
+  <section>
+    <h2>Loops in action</h2>
+    <button id="countBtn">Count 5 ➜ 1</button>
+    <button id="listBtn">Build list</button>
+    <ol id="dynamicList"></ol>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
